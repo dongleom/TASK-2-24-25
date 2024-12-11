@@ -1,0 +1,89 @@
+#banner{
+    padding: 60px 0;
+
+    .wrapper_banner{
+        display: grid;
+        grid-template-columns: repeat(2, 10fr);
+        grid-auto-rows: 490px;
+        
+        gap:16px;
+
+
+        .left_ban{
+            background-color: #1749B3;
+            border-radius: 32px;
+            box-shadow: rgba(201, 196, 196, 0.5) 0px 0px 30px 6px;
+            .move_ban{
+                padding: 106px 60px;
+                
+                h2{
+                    font-family: "bold",sans-serif;
+                    font-size: 36px;
+                    color:white;
+                }
+
+                p{
+                    padding-top: 26px;
+                    color:white;
+                    font-family: "book",sans-serif;
+                    font-size: 16px;
+                    margin: 0px;
+                }
+
+                .button_ban{
+                    background-color: #fff;
+                    border-radius: 16px;
+                    margin-top: 40px;
+
+                    p{
+                        color:#112f71;
+                        margin: 0px;
+                        padding: 8px 56px;
+                        font-family: "bold",sans-serif;
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+        // .right_ban{
+        //     background-image: url('../image/girl_ban.png');
+        //     background-size: contain;
+        //     background-position: center;
+        //     border-radius: 32px;
+        //     background-color: #fff;
+        //     background-repeat: no-repeat;
+        //     box-shadow: rgba(201, 196, 196, 0.5) 0px 0px 30px 6px;
+        // }
+
+        .right_ban{
+            background-image: url('../image/girl_about.png');
+            background-size: contain;
+            background-position: center;
+            border-radius: 32px;
+            background-color: #fff;
+            background-repeat: no-repeat;
+            box-shadow: rgba(201, 196, 196, 0.5) 0px 0px 30px 6px;
+        }
+
+        .modal-content{
+            border-radius: 30px;
+            background-color: #ECF3FB;
+            font-family: "med",sans-serif;
+
+            .modal_move{
+                padding: 20px;
+            }
+
+            .btn{
+                border-radius: 14px !important;
+            }
+
+            .blue_but{
+                background-color: #1749B3;
+                color:#fff;
+            }
+        }
+    }
+    
+}

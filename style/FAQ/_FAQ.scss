@@ -1,0 +1,95 @@
+#faq{
+    padding: 60px 0;
+
+    h2{
+        font-family: "bold",sans-serif;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+
+   
+    .card{
+        border-radius: 12px;
+
+    }
+
+    // .card:nth-of-type(3n) a{
+    //     margin-top: 54px;
+
+    // }
+    .card:nth-of-type(3n) h5{
+        padding-bottom: 38px;
+
+    }
+
+    .card-body{
+
+        
+        h5{
+            font-family: "bold",sans-serif;
+            font-style: normal;
+            padding-bottom: 15px;
+            font-size: 20px;
+        }
+
+        
+
+        p{
+            font-family: "book",sans-serif;
+            font-size:14px ;
+            text-align: justify;
+        }
+
+        a{
+            margin-top: 60px;
+            width: 100%;
+            background-color: #333333;
+            padding: 10px 24px;
+            color:white;
+            border-radius: 16px;
+            font-family: "bold",sans-serif;
+            font-size: 15px;
+        }
+
+        
+    }
+
+    .image_wrapper{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image_wrapper img{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+
+    .carousel-control-prev,.carousel-control-next{
+        background-color: #34373c;
+        width: 3vh;
+        height: 3vh;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-control-prev span,
+    .carousel-control-next span{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        justify-self: center;
+        align-self: center;
+    }
+}

@@ -1,0 +1,57 @@
+#footer{
+    background-color: #0b2356;
+    padding: 60px;
+
+    .footer_block{
+        display: flex;
+        justify-content: space-between;
+        color:white;
+    }
+
+    .one{
+        p{
+            padding-top: 23px;
+            font-family: "book",sans-serif;
+            font-size: 16px;
+            max-width: 179px;
+        }
+    }
+
+    .two, .tree{
+        h5{
+            padding-bottom: 20px;
+            font-family: "bold",sans-serif;
+            font-size: 18px;
+        }
+
+        
+    }
+
+    .cheture{
+
+        img{
+            padding-bottom: 13px;
+        }
+        
+        p{
+            text-align: end;
+            font-family: "book",sans-serif;
+        }
+        
+    }
+
+    
+
+    ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        
+
+        li{
+           padding-bottom: 10px;
+           font-family: "book", sans-serif;
+           font-size: 16px;
+        }
+    }
+}

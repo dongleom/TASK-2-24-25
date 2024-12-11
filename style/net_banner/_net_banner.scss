@@ -1,0 +1,30 @@
+#net_banner{
+    padding: 64px 0 44px 0;
+
+    .container{
+        background: transparent;
+    }
+
+    img{
+        width: 100%;
+        background: transparent;
+        box-shadow: rgb(177, 22, 22, .5) 0px 0px 30px 6px;
+        border-radius: 32px;
+    }
+
+    .text{
+        padding-bottom: 42px;
+        text-align: center;
+
+        h3{
+            font-family: "bold",sans-serif;
+            font-size: 32px;
+        }
+
+        p{
+            font-family: "book", sans-serif;
+            font-size: 16px;
+            padding-top: 16px;
+        }
+    }
+}

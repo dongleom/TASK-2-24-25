@@ -1,0 +1,111 @@
+#subscribe{
+    padding: 60px 0;
+
+    h2{
+        font-family: "bold",sans-serif;
+        font-size: 32px;
+        padding-bottom: 37px;
+    }
+
+    .wrapper_subscr{
+        .card:nth-of-type(1){
+            margin-bottom: 16px;
+        }
+
+        .card:nth-of-type(2){
+            margin-bottom: 16px;
+        }
+        
+        .card:nth-of-type(1){
+            transition: 0.7s;
+            box-shadow: rgba(147, 139, 139, .7) 0px 0px 30px 6px;
+        }
+        .card:nth-of-type(1):hover{
+            box-shadow: rgb(177, 22, 22, .7) 0px 0px 30px 6px;
+        }
+
+        .card:nth-of-type(2){
+            transition: 0.7s;
+            box-shadow: rgba(147, 139, 139, .7) 0px 0px 30px 6px;
+        }
+
+        .card:nth-of-type(2):hover{
+            box-shadow: rgb(30, 215, 96, .7) 0px 0px 30px 6px;
+        }
+
+        .card:nth-of-type(3){
+            transition: 0.7s;
+            box-shadow: rgba(147, 139, 139, .7) 0px 0px 30px 6px;
+        }
+
+        .card:nth-of-type(3):hover{
+            box-shadow: rgba(155, 98, 128, .7) 0px 0px 30px 6px;
+        }
+
+        .card{
+            display: grid;
+            grid-template-columns: repeat(2, 10fr);
+            grid-auto-rows: 342px;
+            border-radius: 32px;
+            border: none !important;
+            
+
+            .card_one img{
+                height: 100%;
+                width: 100%;
+                border-radius: 32px;
+            }
+
+
+            .card_two img{
+                height: 100%;
+                width: 100%;
+                border-radius: 32px;
+            }
+
+            
+            .card_tri img{
+                height: 100%;
+                width: 100%;
+                border-radius: 32px;
+            }
+
+            .move_card{
+                padding: 60px 112px 60px 60px;
+
+                h3{
+                    font-family: "med",sans-serif;
+                    font-size: 26px;
+                    padding-bottom: 22px;
+                }
+
+                .mini{
+                    font-family: "book",sans-serif;
+                    font-size: 16px;
+                    padding-bottom: 38px;
+                }
+
+                button{
+                    background-color: #1749B3;
+                    border-radius: 16px;
+                    color:white;
+                    border:none;
+                    margin-top: 24px;
+
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                    p{
+                        padding: 16px 24px !important;
+                        font-family: "bold",sans-serif;
+                    }
+                }
+            }
+        }
+
+
+        
+        
+    }
+}
